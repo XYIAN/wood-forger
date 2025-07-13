@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.1.0] - Enhanced Edit Functionality & UI Polish
+
+### Added
+
+- **Working Edit Dialogs**: Fully functional PrimeReact dialogs for inventory and project editing
+- **Form Validation**: Proper validation for required fields with user feedback
+- **Enhanced Starter Data**:
+  - 6 inventory items (Oak, Walnut, Maple, Cherry, Mahogany, Pine) with realistic details
+  - 6 projects (3 completed, 3 in progress) with varied complexity and profit tracking
+  - 6 orders (3 pending, 3 completed) with customer details and notes
+- **Improved State Management**: Fixed state updates for proper CRUD operations
+- **Better User Experience**:
+  - Confirmation dialogs with item-specific details
+  - Proper dialog state cleanup
+  - Enhanced error handling and validation messages
+
+### Enhanced
+
+- **UI Polish**: More glossy styling with enhanced shadows, borders, and hover effects
+- **Visual Hierarchy**: Better spacing, icons, and color coding throughout
+- **Component Styling**: Enhanced cards, tables, and buttons with consistent design
+- **Dashboard**: Improved stat cards and activity feeds with better visual presentation
+- **Navigation**: Enhanced header with better responsive design
+
+### Fixed
+
+- **State Management**: Proper state updates for inventory, projects, and orders
+- **Dialog Functionality**: Working add/edit/delete operations with immediate UI updates
+- **Form Handling**: Correct form submission and validation
+- **Data Persistence**: Changes persist during session with proper state management
+
+### Technical Improvements
+
+- **Type Safety**: Enhanced TypeScript interfaces and proper type annotations
+- **Code Quality**: Better error handling and user feedback
+- **Performance**: Optimized state updates and component rendering
+- **Accessibility**: Improved tooltips and confirmation dialogs
+
+---
+
 ## [1.0.0] - Complete Wood Forger Release
 
 ### Added
